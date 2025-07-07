@@ -45,6 +45,66 @@ Follow these steps to run the project locally:
 ### ✅ 1. Clone the Repository
 
 ```bash
-git clone https://github.com/vinayakerkar/contact-form-mern.git
+git clone https://github.com/VINAY0416/contact-form-mern.git
 cd Contact
+```
+
+### ✅ 2. Backend Setup
+
+```bash
+cd backend
+npm install
+
+
+```
+
+🔐 Create a `.env` file in the `backend/` folder with the following content:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+
+
+▶️ Start the backend server:
+
+node server.js
+
+📍 Backend will run on: http://localhost:5000
+
+✅ 3. Frontend Setup
+Open a new terminal tab or window and run:
+
+cd frontend
+npm install
+npm start
+
+📍 Frontend will run on: http://localhost:3000
+
+
+| Method | Route           | Description          |
+| ------ | --------------- | -------------------- |
+| POST   | `/api/messages` | Submits contact data |
+
+
+🧠 Database Setup for Reviewers
+This project uses MongoDB Atlas to store submitted messages.
+
+If you're reviewing this project and want to test it:
+
+Create a free MongoDB Atlas account at https://www.mongodb.com/cloud/atlas
+
+Create a new cluster and get your connection string
+
+Replace MONGO_URI inside the .env file in /backend/ with your connection string
+
+❗ For security reasons, my personal MongoDB URI is not included in this repository.
+
+👤 Author
+Vinay Akerkar
+📧 akerkarvinay@gmail.com
+📍 Belgaum, India
+🔗 https://github.com/VINAY0416
+
+📝 Note
+This project was developed as part of a technical interview assignment and is intended for evaluation by the hiring team only.
 ```
