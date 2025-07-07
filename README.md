@@ -54,37 +54,40 @@ cd Contact
 ```bash
 cd backend
 npm install
-
-
 ```
 
-🔐 Create a `.env` file in the `backend/` folder with the following content:
+🔐 Create a .env file in the backend/ folder with the following content:
 
-```env
+```bash
 MONGO_URI=your_mongodb_connection_string
 PORT=5000
-
+```
 
 ▶️ Start the backend server:
 
+```bash
+
 node server.js
+```
 
 📍 Backend will run on: http://localhost:5000
 
-✅ 3. Frontend Setup
+### ✅ 3. Frontend Setup
+
 Open a new terminal tab or window and run:
+
+```bash
 
 cd frontend
 npm install
 npm start
+```
 
 📍 Frontend will run on: http://localhost:3000
-
 
 | Method | Route           | Description          |
 | ------ | --------------- | -------------------- |
 | POST   | `/api/messages` | Submits contact data |
-
 
 🧠 Database Setup for Reviewers
 This project uses MongoDB Atlas to store submitted messages.
@@ -103,8 +106,7 @@ Replace MONGO_URI inside the .env file in /backend/ with your connection string
 Vinay Akerkar
 📧 akerkarvinay@gmail.com
 📍 Belgaum, India
-🔗 https://github.com/VINAY0416
+🔗 (https://github.com/VINAY0416)
 
 📝 Note
-This project was developed as part of a technical interview assignment and is intended for evaluation by the hiring team only.
-```
+This project was developed as part of a technical interview assignment and is intended for review and evaluation by the hiring team only.
