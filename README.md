@@ -46,7 +46,7 @@ Follow these steps to run the project locally:
 
 ```bash
 git clone https://github.com/VINAY0416/contact-form-mern.git
-cd Contact
+cd contact-form-mern
 ```
 
 ### ✅ 2. Backend Setup
